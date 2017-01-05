@@ -73,6 +73,7 @@
             .attr('class', this.$element.attr('class'))
             .attr('style', this.$element.attr('style'))
             .attr('placeholder', this.$element.attr('placeholder'))
+			.attr('autocapitalize', 'off')
             .css('display', this.$element.css('display'))
             .val(this.$element.val()).hide();
 
