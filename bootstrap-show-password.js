@@ -75,6 +75,8 @@
             .attr('placeholder', this.$element.attr('placeholder'))
             .attr('autocapitalize', 'off')
             .attr('autocomplete', 'off')
+            .attr('autocorrect', 'off')
+            .attr('spellcheck', 'false')
             .css('display', this.$element.css('display'))
             .val(this.$element.val()).hide();
 
